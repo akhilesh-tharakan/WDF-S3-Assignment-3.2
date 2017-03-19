@@ -1,0 +1,42 @@
+/* External CSS Style sheet for Session 3 - Assignment 2*/
+
+body {
+	float: left;
+}
+
+nav {
+	border:1px solid black;
+	line-height:40px;
+	margin: auto;
+	background-color:#2d2e29;
+	padding-left:40px;
+}
+
+a:link{
+	text-decoration:none;
+	color: white;
+}
+		
+		
+#img_sec{
+	align:center;
+	margin:auto;
+}
+		
+#text_sec{
+	margin:auto;
+	text-align:center;
+}
+
+/* Styling for input tag with attribute as search - for our search box */
+input[type=search] {
+    width: 400px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+}
